@@ -1,6 +1,6 @@
 # Java RMI Example
 
-###Try the example:
+### Try the example:
 * Bring up a terminal and start registry
 ```
 $ rmiregistry
@@ -21,7 +21,7 @@ $ cd <target_directory_for_compiled_class_files>
 $ java Client 127.0.0.1
 ``` 
 
-###Five steps for making the remote service:
+### Five steps for making the remote service:
 1. Make a Remote Interface defining the methods that a client can call remotely
     * Extend java.rmi.Remote
     * Declare that all methods throws a RemoteException
