@@ -31,7 +31,7 @@ $ java Client 127.0.0.1
     * Extend UnicastRemoteObject
     * Write a no-arg constructor that declares a RemoteException
     * Register the service with the RMI registry by using the static rebind() method of the java.rmi.Naming class
-3. Generate the stubs and skeletons using rmi (Deprecated)
+3. Generate the stubs and skeletons using rmic (_Deprecated_)
 4. Bring up a terminal and start registry
 5. Bring up a terminal and start the service
 
